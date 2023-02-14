@@ -1,4 +1,4 @@
-# WriteWhatLearned.github.io
+# [WriteWhatLearned.github.io](https://writewhatlearned.github.io/index.html)
 
 ## 站点介绍
 
@@ -14,4 +14,4 @@
 
 [**兴趣爱好**](Https://WriteWhatLearned.github.io/hobby.html)
 
-[**Work-Life-balance**](Https://WriteWhatLearned.github.io/WLb.html)
+[**Work-Life-Balance**](Https://WriteWhatLearned.github.io/WLb.html)
