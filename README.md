@@ -1,6 +1,6 @@
 # [WriteWhatLearned.github.io](https://writewhatlearned.github.io/index.html)
 
-## 站点介绍
+## 1、站点介绍
 
 | 模块 | 链接 | 跳转 |
 | :-----------: | :-----------: |:-----------: |
@@ -8,7 +8,7 @@
 | 个人简介| https://WriteWhatLearned.github.io/about.html | [**个人简介**](https://WriteWhatLearned.github.io/about.html) |
 | 网站地图| https://WriteWhatLearned.github.io/website.html | [**网站地图**](https://WriteWhatLearned.github.io/website.html)|
 
-## 内容介绍
+## 2、内容介绍
 
 | 模块| 链接 | 跳转 |
 | :-----------: | :-----------: |:-----------: |
