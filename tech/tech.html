@@ -5,87 +5,100 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Lifestyle posts</title>
+    <title>Tech</title>
     
     <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
 
     <!-- Template CSS -->
-    <link rel="stylesheet" href="assets/css/style-starter.css">
+    <link rel="stylesheet" href="../assets/css/style-starter.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/WriteWhatLearned/WX_Blog_IMG@master/ww/writewhatlearned_202303011604368.ico">
   </head>
-  <body>
-<!-- header -->
-<header class="w3l-header">
-	<!--/nav-->
-	<nav class="navbar navbar-expand-lg navbar-light fill px-lg-0 py-0 px-3">
-		<div class="container">
-			<a class="navbar-brand" href="index.html">
-				<span class="fa fa-pencil-square-o"></span> Design Blog</a>
-			<!-- if logo is image enable this   
-						<a class="navbar-brand" href="#index.html">
-							<img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
-						</a> -->
-			<button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
-				data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-				aria-label="Toggle navigation">
-				<!-- <span class="navbar-toggler-icon"></span> -->
-				<span class="fa icon-expand fa-bars"></span>
-				<span class="fa icon-close fa-times"></span>
-			</button>
 
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item @@home__active">
-						<a class="nav-link" href="index.html">Home</a>
-					</li>
-					<li class="nav-item dropdown active">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Categories <span class="fa fa-angle-down"></span>
-						</a>
-						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item active" href="lifestyle.html">Lifestyle posts</a>
-							<a class="dropdown-item @@cp__active" href="culture.html">Culture posts</a>
-						</div>
-					</li>
-					<li class="nav-item @@contact__active">
-						<a class="nav-link" href="contact.html">Contact</a>
-					</li>
-				</ul>
+<body>
+  <!-- header -->
+  <header class="w3l-header">
+    <!--/nav-->
+    <nav class="navbar navbar-expand-lg navbar-light fill px-lg-0 py-0 px-3">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">
+               <div>
+                    <span class="fa fa-pencil-square-o"></span> Wirte What Learned </a>
+                    <!-- <span class="fa"></span>Wirte What Learned</a> -->
+               </div>
+            <!-- if logo is image enable this   
+                    <a class="navbar-brand" href="#index.html">
+                        <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
+                    </a> -->
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <!-- <span class="navbar-toggler-icon"></span> -->
+                <span class="fa icon-expand fa-bars"></span>
+                <span class="fa icon-close fa-times"></span>
+            </button>
 
-				<!--/search-right-->
-				<div class="search-right mt-lg-0 mt-2">
-					<a href="#search" title="search"><span class="fa fa-search" aria-hidden="true"></span></a>
-					<!-- search popup -->
-					<div id="search" class="pop-overlay">
-						<div class="popup">
-							<h3 class="hny-title two">Search here</h3>
-							<form action="#" method="Get" class="search-box">
-								<input type="search" placeholder="Search for blog posts" name="search"
-									required="required" autofocus="">
-								<button type="submit" class="btn">Search</button>
-							</form>
-							<a class="close" href="#close">×</a>
-						</div>
-					</div>
-					<!-- /search popup -->
-				</div>
-				<!--//search-right-->
-                    <!-- author -->
-                    <div class="header-author d-flex ml-lg-4 pl-2 mt-lg-0 mt-3">
-                        <a class="img-circle img-circle-sm" href="#author">
-                            <img src="assets/images/author.jpg" class="img-fluid" alt="...">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <!-- home -->
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+
+                    <!-- dropdown tags -->
+                    <li class="nav-item dropdown @@category__active">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Tech & Hobby <span class="fa fa-angle-down"></span>
                         </a>
-                        <div class="align-self ml-3">
-                            <a href="#author">
-                                <h5>Alexander</h5>
-                            </a>
-                            <span>Blog Writer</span>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item @@ls__active" href="../tech/tech.html">Tech</a>
+                            <a class="dropdown-item @@cp__active" href="../hobby/hobby.html">Hobby</a>
+                            <a class="dropdown-item @@cp__active" href="../wlf/wlf.html">Work-Life-Balance</a>
+                        </div>
+                    </li>
+                    <!-- about -->
+                    <li class="nav-item @@contact__active">
+                        <a class="nav-link" href="../about/">About</a>
+                    </li>
+                </ul>
+
+                <!--/search-right-->
+                <div class="search-right mt-lg-0 mt-2">
+                    <a href="#search" title="search"><span class="fa fa-search" aria-hidden="true"></span></a>
+                    <!-- search popup -->
+                    <div id="search" class="pop-overlay">
+                        <div class="popup">
+                            <h3 class="hny-title two">Search here</h3>
+                            <form action="#" method="Get" class="search-box">
+                                <input type="search" placeholder="Search for blog posts" name="search"
+                                    required="required" autofocus="">
+                                <button type="submit" class="btn">Search</button>
+                            </form>
+                            <a class="close" href="#close">×</a>
                         </div>
                     </div>
-                    <!-- // author-->
+                    <!-- /search popup -->
+                </div>
+                <!--//search-right-->
 
-			</div>
+                <!-- author -->
+                <div class="header-author d-flex ml-lg-4 pl-2 mt-lg-0 mt-3">
+                    <a class="img-circle img-circle-sm" href="./about/index.html">
+                        <img src="https://cdn.jsdelivr.net/gh/WriteWhatLearned/WX_Blog_IMG@master/ww/wangwei_202303011546848.jpg" class="img-fluid" alt="...">
+                    </a>
+                    <div class="align-self ml-3">
+                        <a href="./about/index.html">
+                            <h5>Wang Wei</h5>
+                        </a>
+                        <!-- <span>Writing what you learn is not only a learning method, but also an attitude towards life.</span> -->
+                        <span>Write what your learned is an attitude.</span>
+                    </div>
+                </div>
+                <!-- // author-->
+            </div>
 
             <!-- toggle switch for light and dark theme -->
             <div class="mobile-position">
@@ -102,15 +115,20 @@
                 </nav>
             </div>
             <!-- //toggle switch for light and dark theme -->
-		</div>
-	</nav>
-	<!--//nav-->
+        </div>
+    </nav>
+    <!--//nav-->
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/WriteWhatLearned/WX_Blog_IMG@master/ww/writewhatlearned_202303011604368.ico">
+    <!-- //Favicon -->
+
 </header>
 <!-- //header -->
 
 <nav id="breadcrumbs" class="breadcrumbs">
 	<div class="container page-wrapper">
-		<a href="index.html">Home</a> / Categories / <span class="breadcrumb_last" aria-current="page">Lifestyle</span>
+		<a href="index.html">Home</a> / Categories /<span class="breadcrumb_last" aria-current="page">Culture</span>
 	</div>
 </nav>
 <div class="w3l-searchblock w3l-homeblock1 py-5">
@@ -118,44 +136,18 @@
         <!-- block -->
         <div class="row">
             <div class="col-lg-8 most-recent">
-                <h3 class="section-title-left">Lifestyle</h3>
+                <h3 class="section-title-left">Culture</h3>
                
                 <div class="row">
-                    <div class="col-lg-6 col-md-6 item">
+                    <div class="col-md-12 item">
                         <div class="card">
                             <div class="card-header p-0 position-relative">
                                 <a href="#blog-single">
-                                    <img class="card-img-bottom d-block radius-image" src="assets/images/p2.jpg" alt="Card image cap">
+                                    <img class="card-img-bottom d-block radius-image" src="../images/blog.jpg" alt="Card image cap">
                                 </a>
                             </div>
                             <div class="card-body p-0 blog-details">
-                                <a href="#blog-single" class="blog-desc">Here are a few tips that will help you to get started about lifestyle
-                                </a>
-                                <p>Lorem ipsum dolor sit amet consectetur ipsum adipisicing elit. Qui eligendi
-                                    vitae sit.</p>
-                                <div class="author align-items-center mt-3 mb-1">
-                                    <a href="#author">Johnson smith</a> in <a href="#url">Design</a>
-                                </div>
-                                <ul class="blog-meta">
-                                    <li class="meta-item blog-lesson">
-                                        <span class="meta-value"> April 13, 2020 </span>
-                                    </li>
-                                    <li class="meta-item blog-students">
-                                        <span class="meta-value"> 6min read</span>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 item mt-md-0 mt-5">
-                        <div class="card">
-                            <div class="card-header p-0 position-relative">
-                                <a href="#blog-single">
-                                    <img class="card-img-bottom d-block radius-image" src="assets/images/p1.jpg" alt="Card image cap">
-                                </a>
-                            </div>
-                            <div class="card-body p-0 blog-details">
-                                <a href="#blog-single" class="blog-desc">Before you start writing first blog post, you should make a content plan.
+                                <a href="#blog-single" class="blog-desc">How To Be The First to Post A Comment on a Blog-Post?
                                 </a>
                                 <p>Lorem ipsum dolor sit amet consectetur ipsum adipisicing elit. Qui eligendi
                                     vitae sit.</p>
@@ -177,11 +169,11 @@
                         <div class="card">
                             <div class="card-header p-0 position-relative">
                                 <a href="#blog-single">
-                                    <img class="card-img-bottom d-block radius-image" src="assets/images/p4.jpg" alt="Card image cap">
+                                    <img class="card-img-bottom d-block radius-image" src="../images/p1.jpg" alt="Card image cap">
                                 </a>
                             </div>
                             <div class="card-body p-0 blog-details">
-                                <a href="#blog-single" class="blog-desc">Guidelines to help you decide what your blog post should be about.
+                                <a href="#blog-single" class="blog-desc">How to Start a Blog and make money every Month from it
                                 </a>
                                 <p>Lorem ipsum dolor sit amet consectetur ipsum adipisicing elit. Qui eligendi
                                     vitae sit.</p>
@@ -203,11 +195,11 @@
                         <div class="card">
                             <div class="card-header p-0 position-relative">
                                 <a href="#blog-single">
-                                    <img class="card-img-bottom d-block radius-image" src="assets/images/p3.jpg" alt="Card image cap">
+                                    <img class="card-img-bottom d-block radius-image" src="../images/p4.jpg" alt="Card image cap">
                                 </a>
                             </div>
                             <div class="card-body p-0 blog-details">
-                                <a href="#blog-single" class="blog-desc">Now, Make money from blogging in easy steps
+                                <a href="#blog-single" class="blog-desc">What’s better than following your passion and making income
                                 </a>
                                 <p>Lorem ipsum dolor sit amet consectetur ipsum adipisicing elit. Qui eligendi
                                     vitae sit.</p>
@@ -229,39 +221,38 @@
                         <div class="card">
                             <div class="card-header p-0 position-relative">
                                 <a href="#blog-single">
-                                    <img class="card-img-bottom d-block radius-image" src="assets/images/p7.jpg"
+                                    <img class="card-img-bottom d-block radius-image" src="../images/p3.jpg" alt="Card image cap">
+                                </a>
+                            </div>
+                            <div class="card-body p-0 blog-details">
+                                <a href="#blog-single" class="blog-desc">Without further delay, let’s learn how you can start a blog today.
+                                </a>
+                                <p>Lorem ipsum dolor sit amet consectetur ipsum adipisicing elit. Qui eligendi
+                                    vitae sit.</p>
+                                <div class="author align-items-center mt-3 mb-1">
+                                    <a href="#author">Johnson smith</a> in <a href="#url">Design</a>
+                                </div>
+                                <ul class="blog-meta">
+                                    <li class="meta-item blog-lesson">
+                                        <span class="meta-value"> April 13, 2020 </span>
+                                    </li>
+                                    <li class="meta-item blog-students">
+                                        <span class="meta-value"> 6min read</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 item mt-5 pt-lg-3">
+                        <div class="card">
+                            <div class="card-header p-0 position-relative">
+                                <a href="#blog-single">
+                                    <img class="card-img-bottom d-block radius-image" src="../images/p7.jpg"
                                         alt="Card image cap">
                                 </a>
                             </div>
                             <div class="card-body p-0 blog-details">
-                                <a href="#blog-single" class="blog-desc">Many ways by which your blog can earn passive income for you.
-                                </a>
-                                <p>Lorem ipsum dolor sit amet consectetur ipsum adipisicing elit. Qui eligendi
-                                    vitae sit.</p>
-                                <div class="author align-items-center mt-3 mb-1">
-                                    <a href="#author">Johnson smith</a> in <a href="#url">Design</a>
-                                </div>
-                                <ul class="blog-meta">
-                                    <li class="meta-item blog-lesson">
-                                        <span class="meta-value"> April 13, 2020 </span>
-                                    </li>
-                                    <li class="meta-item blog-students">
-                                        <span class="meta-value"> 6min read</span>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 item mt-5 pt-lg-3">
-                        <div class="card">
-                            <div class="card-header p-0 position-relative">
-                                <a href="#blog-single">
-                                    <img class="card-img-bottom d-block radius-image" src="assets/images/p8.jpg"
-                                        alt="Card image cap">
-                                </a>
-                            </div>
-                            <div class="card-body p-0 blog-details">
-                                <a href="#blog-single" class="blog-desc">Keyword research for dummies using the Google Keyword tool
+                                <a href="#blog-single" class="blog-desc">Either way, Blogging could help you achieve your goal.
                                 </a>
                                 <p>Lorem ipsum dolor sit amet consectetur ipsum adipisicing elit. Qui eligendi
                                     vitae sit.</p>
@@ -302,7 +293,7 @@
                     <div class="grids5-info">
                         <h4>01.</h4>
                         <div class="blog-info">
-                            <a href="#blog-single" class="blog-desc1"> Few Ways to Readership and improving your blog
+                            <a href="#blog-single" class="blog-desc1"> You can always change your domain name in the future if you like.
                             </a>
                             <div class="author align-items-center mt-2 mb-1">
                                 <a href="#author">Johnson smith</a> in <a href="#url">Design</a>
@@ -320,7 +311,7 @@
                     <div class="grids5-info">
                         <h4>02.</h4>
                         <div class="blog-info">
-                            <a href="#blog-single" class="blog-desc1"> One major difference between a normal blog and a good blog is the detailing.
+                            <a href="#blog-single" class="blog-desc1"> Pick a domain name & hosting for your blog
                             </a>
                             <div class="author align-items-center mt-2 mb-1">
                                 <a href="#author">Johnson smith</a> in <a href="#url">Design</a>
@@ -338,7 +329,8 @@
                     <div class="grids5-info">
                         <h4>03.</h4>
                         <div class="blog-info">
-                            <a href="#blog-single" class="blog-desc1"> When should you start putting ads on your blog?
+                            <a href="#blog-single" class="blog-desc1"> How To Start A Blog From Scratch and with No Experience
+
                             </a>
                             <div class="author align-items-center mt-2 mb-1">
                                 <a href="#author">Johnson smith</a> in <a href="#url">Design</a>
@@ -356,8 +348,8 @@
                     <div class="grids5-info">
                         <h4>04.</h4>
                         <div class="blog-info">
-                            <a href="#blog-single" class="blog-desc1"> What should be the name of your blog domain?
-                            </a>
+                            <a href="#blog-single" class="blog-desc1"> Within few minutes, you will have your blog up and running.
+                           </a>
                             <div class="author align-items-center mt-3 mb-1">
                                 <a href="#author">Johnson smith</a> in <a href="#url">Design</a>
                             </div>
@@ -376,57 +368,75 @@
         </div>
         <!-- //block-->
 
-        <!-- ad block -->
+        <!-- message block -->
         <div class="ad-block text-center mt-5">
-            <a href="#url"><img src="assets/images/ad.gif" class="img-fluid" alt="ad image" /></a>
+            <span>
+                <h4 class="text-center text-muted font-weight-bolder">把学的写出来，是一种学习方法，也是一种生活态度。</h4>
+                <br>
+                <h3 class="text-center text-muted font-italic">Writing what your learned is not only a learning method, but also an attitude towards life.</h3>
+            </span>
         </div>
-        <!-- //ad block -->
+        <!-- //message block -->
     </div>
 </div>
 
 <!-- footer -->
 <footer class="w3l-footer-16">
-  <div class="footer-content py-lg-5 py-4 text-center">
-    <div class="container">
-      <div class="copy-right">
-        <h6>Copyright &copy; 2020.Company name All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></h6>
-      </div>
-      <ul class="author-icons mt-4">
-        <li><a class="facebook" href="#url"><span class="fa fa-facebook" aria-hidden="true"></span></a> </li>
-        <li><a class="twitter" href="#url"><span class="fa fa-twitter" aria-hidden="true"></span></a></li>
-        <li><a class="google" href="#url"><span class="fa fa-google-plus" aria-hidden="true"></span></a></li>
-        <li><a class="linkedin" href="#url"><span class="fa fa-linkedin" aria-hidden="true"></span></a></li>
-        <li><a class="github" href="#url"><span class="fa fa-github" aria-hidden="true"></span></a></li>
-        <li><a class="dribbble" href="#url"><span class="fa fa-dribbble" aria-hidden="true"></span></a></li>
-      </ul>
-      <button onclick="topFunction()" id="movetop" title="Go to top">
-        <span class="fa fa-angle-up"></span>
-      </button>
+    <div class="footer-content py-lg-5 py-4 text-center">
+        <div class="container">
+
+            <!-- Outlink and Icon -->
+            <div>
+                <ul class="author-icons mt-lg-0">
+                    <li><a class="wechat" href="https://mp.weixin.qq.com/s/-dpL9-bR4AXda9g5Uupq1w"><span class="fa fa-wechat" aria-hidden="true"></span></a></li>
+                    <li><a class="zhihu" href="https://www.zhihu.com/people/WriteWhatLearned">知</a></li>
+                    <li><a class="linkedin" href="https://www.linkedin.cn/incareer/in/wei-wang-0b90431ab"><span class="fa fa-linkedin" aria-hidden="true"></span></a></li>
+                    <li><a class="github" href="https://github.com/WriteWhatLearned"><span class="fa fa-github" aria-hidden="true"></span></a></li>
+                    <li><a class="Web" href="http://writewhatlearned.com.cn"><span class="fa fa-cloud" aria-hidden="true"></span></a></li>
+                </ul>
+            </div>
+
+            <!-- Copy Right -->
+            <div class="copy-right">
+                <h6>Copyright &copy; Wang Wei 2023.</h6>
+                
+            </div>
+            
+            <!-- Bei An -->
+            <div>
+                <span></span>
+                <span><a href="https://beian.miit.gov.cn/" target="_blank"><h6 class="text-muted">沪ICP备2022024213号-1</h6></a></span>
+            </div>
+
+            <!-- Go to Top -->
+            <button onclick="topFunction()" id="movetop" title="Go to top">
+                <span class="fa fa-angle-up"></span>
+            </button>
+        </div>
     </div>
-  </div>
 
-  <!-- move top -->
-  <script>
-    // When the user scrolls down 20px from the top of the document, show the button
-    window.onscroll = function () {
-      scrollFunction()
-    };
+    <!-- move top -->
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction()
+        };
 
-    function scrollFunction() {
-      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("movetop").style.display = "block";
-      } else {
-        document.getElementById("movetop").style.display = "none";
-      }
-    }
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("movetop").style.display = "block";
+            } else {
+                document.getElementById("movetop").style.display = "none";
+            }
+        }
 
-    // When the user clicks on the button, scroll to the top of the document
-    function topFunction() {
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
-    }
-  </script>
-  <!-- //move top -->
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <!-- //move top -->
 </footer>
 <!-- //footer -->
 
