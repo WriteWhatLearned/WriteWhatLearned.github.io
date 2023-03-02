@@ -14,4 +14,4 @@
 | :-----------: | :-----------: |:-----------: |
 | 技术小结| https://WriteWhatLearned.github.io/tech | [**技术小结**](https://WriteWhatLearned.github.io/tech) |
 | 兴趣爱好| https://WriteWhatLearned.github.io/hobby | [**兴趣爱好**](https://WriteWhatLearned.github.io/hobby) |
-| Work-Life-Balance | https://WriteWhatLearned.github.io/wlb | [**Work-Life-Balance**](https://WriteWhatLearned.github.io/wlb) |
+| Work Life Balance | https://WriteWhatLearned.github.io/wlb | [**Work-Life-Balance**](https://WriteWhatLearned.github.io/wlb) |
