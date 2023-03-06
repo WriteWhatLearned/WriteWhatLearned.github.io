@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>使用GitHub和PicGo创建图床</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
+
+  <!-- Template CSS -->
+  <link rel="stylesheet" href="../../../assets/css/style-starter.css">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="../../../assets/ico/writewhatlearned.ico">
+
+</head>
+
+<body>
+
+  <!-- header -->
+  <header class="w3l-header">
+    <!--/nav-->
+    <nav class="navbar navbar-expand-lg navbar-light fill px-lg-0 py-0 px-3">
+      <div class="container">
+        <a class="navbar-brand" href="/index.html">
+          <div>
+            <span class="fa fa-pencil-square-o"></span>
+            Wirte What Learned
+          </div>
+        </a>
+        <!-- if logo is image enable this   
+                            <a class="navbar-brand" href="#index.html">
+                                <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
+                            </a> -->
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+          data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <span class="fa icon-expand fa-bars"></span>
+          <span class="fa icon-close fa-times"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <!-- home -->
+            <li class="nav-item active">
+              <a class="nav-link" href="/index.html">Home</a>
+            </li>
+            <!-- //home -->
+
+            <!-- dropdown tags -->
+            <li class="nav-item dropdown @@category__active">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Tech & Hobby
+                <span class="fa fa-angle-down"></span>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item @@ls__active" href="/tech/">Tech</a>
+                <a class="dropdown-item @@cp__active" href="/hobby/">Hobby</a>
+                <a class="dropdown-item @@cp__active" href="/wlb/">Work-Life-Balance</a>
+              </div>
+            </li>
+
+            <!-- about -->
+            <li class="nav-item @@contact__active">
+              <a class="nav-link" href="/about/">About</a>
+            </li>
+
+          </ul>
+
+          <!--/search-right-->
+          <div class="search-right mt-lg-0 mt-2">
+            <a href="#search" title="search"><span class="fa fa-search" aria-hidden="true"></span></a>
+            <!-- search popup -->
+            <div id="search" class="pop-overlay">
+              <div class="popup">
+                <h3 class="hny-title two">Search here</h3>
+                <form action="#" method="Get" class="search-box">
+                  <input type="search" placeholder="Search for blog posts" name="search" required="required"
+                    autofocus="">
+                  <button type="submit" class="btn">Search</button>
+                </form>
+                <a class="close" href="#close">×</a>
+              </div>
+            </div>
+            <!-- /search popup -->
+          </div>
+          <!--//search-right-->
+
+          <!-- author -->
+          <div class="header-author d-flex ml-lg-4 pl-2 mt-lg-0 mt-3">
+            <a class="img-circle img-circle-sm" href="/author/">
+              <img src="../../../images/author/wangwei.jpg" class="img-fluid" alt="...">
+            </a>
+            <div class="align-self ml-3">
+              <div class="font-weight-bolder">Wang Wei</div>
+              <div>Write what your learned is an attitude.</div>
+            </div>
+          </div>
+          <!-- // author-->
+        </div>
+
+        <!-- toggle switch for light and dark theme -->
+        <div class="mobile-position">
+          <nav class="navigation">
+            <div class="theme-switch-wrapper">
+              <label class="theme-switch" for="checkbox">
+                <input type="checkbox" id="checkbox">
+                <div class="mode-container">
+                  <i class="gg-sun"></i>
+                  <i class="gg-moon"></i>
+                </div>
+              </label>
+            </div>
+          </nav>
+        </div>
+        <!-- //toggle switch for light and dark theme -->
+      </div>
+    </nav>
+    <!--//nav-->
+
+  </header>
+  <!-- //header -->
+
+  <!-- nav bar -->
+  <nav id="breadcrumbs" class="breadcrumbs">
+    <div class="container page-wrapper">
+      <a href="/index.html">Home</a> / <a href="/tech/">&nbsp;Tech</a> /
+      <span class="breadcrumb_last" aria-current="page">使用GitHub和PicGo创建图床</span>
+    </div>
+  </nav>
+  <!-- //nav bar -->
+
+  <!-- insert body text -->
+  <div class="w3l-homeblock1 py-5">
+    <div class="container pt-lg-0 pt-md-0">
+
+      <div id='write' class=''>
+        <p><span>随着接触的信息类型、数量等剧增，将信息转换成知识的链路过程越来越长，
+            因此逐渐由轻记录养成了撰写博客的习惯，慢慢开始高频使用</span>
+          <a
+            href='https://baike.baidu.com/item/markdown?fromModule=lemma_search-box'><span>Markdown</span></a><span>来撰写博客。</span>
+        </p>
+        <p><span>在深度使用兼容Markdown语言的编辑器，撰写博客过程中发现，Markdown编辑器的纯文本编辑和图文编辑与以Word为主的文本编辑器存在不同。</span></p>
+        <p>
+          <span>Markdown不同于Word（Word直接把图片、文本等统一打包在</span><code>.doc</code><span>文件内部），而是以</span><strong><span>链接</span></strong><span>(</span><a
+            href='https://baike.baidu.com/item/markdown/markdown.png' target='_blank'
+            class='url'>https://baike.baidu.com/item/markdown/markdown.png</a><span>)和</span><strong><span>文件路径</span></strong><span>(</span><code>./blog/20230105/markdown.png</code><span>)等方式支持图片访问，使得纯文本和图片、视频、音频等资源分开存储。</span>
+        </p>
+        <blockquote>
+          <p><span>Markdown 是一种轻量级标记语言，允许人们使用易读易写的纯文本格式编写文档，然后转换成有效的 XHTML、HTML文档。</span></p>
+          <p><span>由于 Markdown 的轻量化、易读易写特性，并且对于图片，图表、数学式都有支持，许多网站都广泛使用 Markdown 来撰写帮助文档或是用于论坛上发表消息。 如
+              GitHub、Reddit、Diaspora、Stack Exchange、OpenStreetMap 、SourceForge、简书等，甚至还能被使用来撰写电子书。</span></p>
+        </blockquote>
+        <h3 id='markdown文件共享'><span>Markdown文件共享</span></h3>
+        <p><span>在需要进行Markdown文件共享时，通常采用以下两种方式，否则会遇到图片文件无法显示（图片等资源丢失）的尴尬局面。</span></p>
+        <p>
+          <span>1、如果</span><strong><span>图片文件</span></strong><span>以</span><strong><span>文件路径</span></strong><span>方式存放，进行Markdown文件共享时，常常需要将源文件和图片文件打包，才能进行源文件共享。</span>
+        </p>
+        <p><span>2、如果图片文件以</span><strong><span>外链（URL）</span></strong><span>方式存放，进行Markdown文件共享时，只需要进行源文件共享即可。</span>
+        </p>
+        <h3 id='一基于github搭建图片视频等资源外链'><span>一、基于Github搭建图片、视频等资源外链</span></h3>
+        <p><span>但是如何获取图片外链，特别是本地图片如何生成外链。</span></p>
+        <p><span>此时就需要用到</span><strong><span>图床</span></strong><span>，即存储图片同时也可以为每一张图片提供访问链接。</span></p>
+        <blockquote>
+          <p><strong><span>图床</span></strong><span>：存储图片同时也可以为每一张图片提供访问链接。</span></p>
+        </blockquote>
+        <h4 id='11-注册github'><span>1.1 </span><a href='https://github.com/'><span>注册Github</span></a></h4>
+        <p><img
+            src="https://cdn.jsdelivr.net/gh/WriteWhatLearned/WX_Blog_IMG@master/blog/Github-SignUp-202302151400196.png"
+            referrerpolicy="no-referrer" alt="github-SignUp"></p>
+        <h4 id='12-创建github仓库'><span>1.2 </span><a href='https://github.com/new'><span>创建Github仓库</span></a></h4>
+        <ul>
+          <li><em><span>仓库名称可自定义；</span></em></li>
+          <li><em><span>仓库属性为Public；</span></em></li>
+          <li><em><span>Description、README、License等可自定义添加；</span></em></li>
+        </ul>
+        <p><img
+            src="https://cdn.jsdelivr.net/gh/WriteWhatLearned/WX_Blog_IMG@master/blog/Github-NewRepository-202302151402516.png"
+            referrerpolicy="no-referrer" alt="image-20230215140231451"></p>
+        <h4 id='13-生成仓库访问密钥'><span>1.3 </span><a href='https://github.com/settings/tokens'><span>生成仓库访问密钥</span></a>
+        </h4>
+        <ul>
+          <li><span>1.3.1 单击</span><code>Generate new token</code><span>，生成仓库访问Token；</span></li>
+        </ul>
+        <p><img
+            src="https://cdn.jsdelivr.net/gh/WriteWhatLearned/WX_Blog_IMG@master/blog/Github-GenerateToken-202302151409854.png"
+            referrerpolicy="no-referrer" alt="image-20230215140900991"></p>
+        <ul>
+          <li>
+            <p><span>1.3.2 勾选</span><code>repo</code><span>；</span></p>
+          </li>
+          <li>
+            <p><span>1.3.3 单击页面底部的</span><code>Generate token</code><span>绿色按钮生成token。</span></p>
+            <p><img
+                src="https://cdn.jsdelivr.net/gh/WriteWhatLearned/WX_Blog_IMG@master/blog/Gtihub-GenerateToken-202302151435469.png"
+                referrerpolicy="no-referrer" alt="img"></p>
+            <blockquote>
+              <p><strong><span>注意：</span></strong></p>
+              <ul>
+                <li><span>Token生成后只会显示一次！注意离线保存使用。</span></li>
+              </ul>
+            </blockquote>
+          </li>
+        </ul>
+        <h3 id='二基于github生成的token配置picgo'><span>二、基于Github生成的Token配置PicGo</span></h3>
+        <p><img
+            src="https://cdn.jsdelivr.net/gh/WriteWhatLearned/WX_Blog_IMG@master/blog/PicGoSettings-GtihubToken-202302151417449.png"
+            referrerpolicy="no-referrer" alt="image-20230215141741282"></p>
+        <h4 id='21-详细配置介绍'><span>2.1 详细配置介绍</span></h4>
+        <h5 id='211-设定仓库名'><span>2.1.1 设定仓库名</span></h5>
+        <p>
+          <span>仓库名的格式是</span><code>用户名/仓库</code><span>，比如我创建了一个叫做</span><code>WX_BLOG_IMG</code><span>的仓库，在PicGo里我要设定的仓库名就是</span><code>WriteWhatLearned/WX_BLOG_IMG</code><span>。</span>
+        </p>
+        <h5 id='222-设定分支名'><span>2.2.2 设定分支名</span></h5>
+        <p>
+          <span>一般我们选择</span><code>main</code><span>分支即可。然后记得点击确定以生效，然后可以点击</span><code>设为默认图床</code><span>来确保上传的图床是GitHub。</span>
+        </p>
+        <h5 id='223-设定token'><span>2.2.3 设定Token</span></h5>
+        <p><span>基于以上生成的Token。</span></p>
+        <h5 id='224-设定存储路径'><span>2.2.4 设定存储路径</span></h5>
+        <p><span>如果需要对图片作分文件存储，需要在Github新建文件夹。</span></p>
+        <h5 id='225-设定自定义域名'><span>2.2.5 设定自定义域名</span></h5>
+        <p>
+          <span>设定图片外链自定义命名方式，如上图采用</span><code>jsdeliver</code><span>作图片资源的CDN加速的格式为</span><code>https://cdn.jsdelivr.net/gh/用户名/仓库名@分支名</code><span>。</span>
+        </p>
+        <h3 id='三其他'><span>三、其他</span></h3>
+        <p><span>目前提供图床功能的主流服务主要有以下几种：</span></p>
+        <figure>
+          <table>
+            <thead>
+              <tr>
+                <th style='text-align:center;'><span>编号</span></th>
+                <th style='text-align:center;'><span>服务</span></th>
+                <th style='text-align:left;'><span>链接</span></th>
+                <th style='text-align:left;'><span>备注</span></th>
+                <th style='text-align:center;'><span>开源</span></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style='text-align:center;'><span>1</span></td>
+                <td style='text-align:center;'><span>SM.MS</span></td>
+                <td style='text-align:left;'><a href='https://smms.app/' target='_blank'
+                    class='url'>https://smms.app/</a></td>
+                <td style='text-align:left;'><span>- 原官网链接，</span><a href='https://sm.ms/' target='_blank'
+                    class='url'>https://sm.ms/</a><span>已被屏蔽。</span><br><br><span>- 速度一般，传输和存储都有限制。</span><br><span>-
+                    单次上传最多10张图片，单张图片最大5M。</span></td>
+                <td style='text-align:center;'><span>是</span></td>
+              </tr>
+              <tr>
+                <td style='text-align:center;'><span>2</span></td>
+                <td style='text-align:center;'><span>Github</span></td>
+                <td style='text-align:left;'><a href='https://github.com/' target='_blank'
+                    class='url'>https://github.com/</a></td>
+                <td style='text-align:left;'><span>- 资源以公开仓库形式存储。</span><br><br><span>-
+                    速度一般，速度和存储都有限制。</span><br><span>- 总容量限制1G，单张图片最大100M。</span></td>
+                <td style='text-align:center;'><span>是</span></td>
+              </tr>
+              <tr>
+                <td style='text-align:center;'><span>3</span></td>
+                <td style='text-align:center;'><span>七牛云</span></td>
+                <td style='text-align:left;'><a href='https://sso.qiniu.com/' target='_blank'
+                    class='url'>https://sso.qiniu.com/</a></td>
+                <td style='text-align:left;'><span>-</span></td>
+                <td style='text-align:center;'><span>否</span></td>
+              </tr>
+              <tr>
+                <td style='text-align:center;'><span>4</span></td>
+                <td style='text-align:center;'><span>腾讯云COS</span></td>
+                <td style='text-align:left;'><a href='https://cloud.tencent.com/' target='_blank'
+                    class='url'>https://cloud.tencent.com/</a></td>
+                <td style='text-align:left;'><span>-</span></td>
+                <td style='text-align:center;'><span>否</span></td>
+              </tr>
+              <tr>
+                <td style='text-align:center;'><span>5</span></td>
+                <td style='text-align:center;'><span>阿里云COS</span></td>
+                <td style='text-align:left;'><a href='https://www.aliyun.com/' target='_blank'
+                    class='url'>https://www.aliyun.com/</a></td>
+                <td style='text-align:left;'><span>-</span></td>
+                <td style='text-align:center;'><span>否</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </figure>
+        <h3 id='四图床管理程序软件---picgo'><span>四、图床管理程序/软件 - PicGo</span></h3>
+        <p><a href='https://picgo.github.io/PicGo-Doc/'><span>软件下载</span></a></p>
+        <p><img src="https://cdn.jsdelivr.net/gh/WriteWhatLearned/WX_Blog_IMG@master/blog/PicGo-202302151306194.png"
+            referrerpolicy="no-referrer" alt="PicGo-20230215130650724"></p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+
+    <!-- message block -->
+    <div class="ad-block text-center mt-5">
+      <br>
+      <br>
+      <span>
+        <h4 class="text-center text-muted font-weight-bolder">把学的写出来，是一种学习方法，也是一种生活态度。</h4>
+        <br>
+        <h3 class="text-center text-muted font-italic">Writing what your learned is not only a learning method, but also
+          an attitude towards life.</h3>
+      </span>
+    </div>
+    <!-- //message block -->
+
+  </div>
+  </div>
+  <!-- //insert body text -->
+
+  <!-- footer -->
+  <footer class="w3l-footer-16">
+    <div class="footer-content py-lg-5 py-4 text-center">
+      <div class="container">
+
+        <!-- Outlink and Icon -->
+        <div>
+          <ul class="author-icons mt-lg-0">
+            <li><a class="wechat" href="https://mp.weixin.qq.com/s/-dpL9-bR4AXda9g5Uupq1w"><span class="fa fa-wechat"
+                  aria-hidden="true"></span></a></li>
+            <li><a class="zhihu" href="https://www.zhihu.com/people/WriteWhatLearned">知</a></li>
+            <li><a class="linkedin" href="https://www.linkedin.cn/incareer/in/wei-wang-0b90431ab"><span
+                  class="fa fa-linkedin" aria-hidden="true"></span></a></li>
+            <li><a class="github" href="https://github.com/WriteWhatLearned"><span class="fa fa-github"
+                  aria-hidden="true"></span></a></li>
+            <li><a class="Web" href="http://writewhatlearned.com.cn"><span class="fa fa-cloud"
+                  aria-hidden="true"></span></a></li>
+          </ul>
+        </div>
+
+        <!-- Copy Right -->
+        <div class="copy-right">
+          <h6>Copyright &copy; Wang Wei 2023.</h6>
+
+        </div>
+        <!-- //Copy Right -->
+
+        <!-- Bei An -->
+        <div>
+          <span></span>
+          <span><a href="https://beian.miit.gov.cn/" target="_blank">
+              <h6 class="text-muted">沪ICP备2022024213号-1</h6>
+            </a></span>
+        </div>
+
+        <!-- Go to Top -->
+        <button onclick="topFunction()" id="movetop" title="Go to top">
+          <span class="fa fa-angle-up"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- move top -->
+    <script>
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () {
+        scrollFunction()
+      };
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("movetop").style.display = "block";
+        } else {
+          document.getElementById("movetop").style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+    <!-- //move top -->
+  </footer>
+  <!-- //footer -->
+
+  <!-- disable body scroll which navbar is in active -->
+  <script>
+    $(function () {
+      $('.navbar-toggler').click(function () {
+        $('body').toggleClass('noscroll');
+      })
+    });
+  </script>
+  <!-- disable body scroll which navbar is in active -->
+
+  <!-- Template JavaScript -->
+  <script src="../../../assets/js/theme-change.js"></script>
+  <script src="../../../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../../../assets/js/bootstrap.min.js"></script>
+  <!-- //Template JavaScript -->
+
+</body>
+
+</html>
